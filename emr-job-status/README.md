@@ -10,3 +10,5 @@ Out of the box EMR does not generate any such alert notifications. In this blog 
 2. Stepfunction
 3. Lambda 
 4. SNS
+
+![Architecture Diagram](images/emr-job-status.png)
