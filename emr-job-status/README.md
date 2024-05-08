@@ -1,7 +1,7 @@
 # Alert Notifications for Long Running EMR Jobs
 
 Many Organizations run big data ETL Jobs using open source tool Apache Spark in Amazon EMR. 
-To monitor the job progress, it is essential to get alert notifications if the job is running longer than expected, failed due to some error condition. 
+ETL Jobs may run from few minutes to few hours, so it is very important to know the status of the job and get alert notifications if the job is running longer than expected or failed due to some error condition. 
 
 # Solution Overview
 
