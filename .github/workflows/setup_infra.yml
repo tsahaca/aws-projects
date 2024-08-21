@@ -25,9 +25,10 @@ jobs:
     - name: Install tfenv
       run: |
         git clone https://github.com/tfutils/tfenv.git ~/.tfenv
-        echo 'export PATH="$HOME/.tfenv/bin:$PATH"' >> ~/.bashrc
-        echo 'export PATH="$HOME/.tfenv/bin:$PATH"' >> ~/.zshrc
-        export PATH="$HOME/.tfenv/bin:$PATH"
+        # echo 'export PATH="$HOME/.tfenv/bin:$PATH"' >> ~/.bashrc
+        # echo 'export PATH="$HOME/.tfenv/bin:$PATH"' >> ~/.zshrc
+        # export PATH="$HOME/.tfenv/bin:$PATH"
+        echo "$HOME/.tfenv/bin" >> $GITHUB_PATH
 
     - name: Install Terraform with tfenv
       run: |
