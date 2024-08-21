@@ -35,3 +35,9 @@ jobs:
 
     - name: Verify Terraform installation
       run: terraform --version
+
+    - name: Check the current path and sub dirs
+      run: |
+        pwd
+        ls -l
+
